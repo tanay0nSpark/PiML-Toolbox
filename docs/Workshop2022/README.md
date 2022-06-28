@@ -8,7 +8,7 @@ Machine Learning (ML) has gained significant adoption in the industry; however, 
 
 We are going to cover the above aspects—including hands on experience using PiML—in a two-session seminar:
 
-**Session 1: Machine Learning Interpretability **
+**Session 1: Machine Learning Interpretability**
 
 - Post-hoc explainability tools for black box models
   - Local explainability: LIME and SHAP
@@ -21,7 +21,7 @@ We are going to cover the above aspects—including hands on experience using Pi
   - Explainable Boosting Machine
   - Generalized Additive Model with structed Interactions (GAMI) Networks
 
-** Session 2: Machine Learning Model Diagnostics and Validation**
+**Session 2: Machine Learning Model Diagnostics and Validation**
 
 - Model Diagnostics and Testing
   - Weak Spot Analysis through Error Slicing
