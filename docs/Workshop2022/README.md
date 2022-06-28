@@ -1,6 +1,8 @@
-## Workshop Info and Materials, 2022
+## Workshop Info and Materials
 
 ### Machine Learning Model Validation for Critical or Regulated Applications
+
+June 29 - July 6, 2022: QU-ML Model Validation Workshop
 
 URL: [https://github.com/SelfExplainML/PiML-Toolbox](https://github.com/SelfExplainML/PiML-Toolbox)
 
@@ -35,4 +37,3 @@ We are going to cover the above aspects—including hands on experience using Pi
   - Arbitrary black box vs. Inherently interpretable models
   - Performance, Robustness and Resilience
 
-June 29 - July 6, 2022: QU-ML Model Validation Workshop, [https://mlmodelvalidation.splashthat.com/](https://mlmodelvalidation.splashthat.com/)
