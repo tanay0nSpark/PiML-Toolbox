@@ -1,0 +1,45 @@
+
+
+.. _sphx_glr_auto_examples_diagnostics:
+
+.. _diagnostics_examples:
+
+Model Diagnostics
+--------------------
+
+Examples concerning the :mod:`piml.diagnoser` module.
+
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbnails">
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="PiML model diagnostics">
+
+.. only:: html
+
+  .. image:: /auto_examples/diagnostics/images/thumb/sphx_glr_plot_1_resilience_thumb.png
+    :alt: Resilience - Performance: XGB
+
+  :ref:`sphx_glr_auto_examples_diagnostics_plot_1_resilience.py`
+
+.. raw:: html
+
+      <div class="sphx-glr-thumbnail-title">Resilience - Performance: XGB</div>
+    </div>
+
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /auto_examples/diagnostics/plot_1_resilience
+

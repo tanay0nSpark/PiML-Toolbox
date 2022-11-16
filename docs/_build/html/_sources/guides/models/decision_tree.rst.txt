@@ -1,0 +1,130 @@
+.. Places parent toc into the sidebar
+
+:parenttoc: True
+
+.. include:: ../../includes/big_toc_css.rst
+
+==============
+Decision Trees
+==============
+
+**A Decision Tree Explained**
+
+A Decision tree is a supervised machine-learning method that helps make predictions or categorizations. A Decision tree is a non-parametric model, meaning it does not require a specification of parameters, and as a result, it often produces more accurate results. There are many types of trees, Binary Search trees, Heap, Modern Routers, B-Trees, and T-Trees. Decision Trees are one of the most popular learning algorithms among data scientists, for their accuracy, interpretability, and versatility. The objective is to provide a clear set of choices and possible outcomes to the user. 
+
+**Key Terms of a Decision Tree**
+
+Root Node - This is the first node of a decision tree, from where all splitting will occur, similar to a tree’s roots.
+Splitting - The process of splitting a single node into many nodes. For example, a categorical node could be split into night or day, or land or sea.
+Decision/Internal Nodes - When a sub-node splits into further sub-nodes, it's a decision node.
+Leaf Node - When a sub-node cannot be split further it is called a leaf or terminal node. 
+Branch - These are the connections between nodes, each branch represents the outcome of each test from the decision node to the respective leaf node.
+Parent/Child Node - A child node is the subnode of a decision node. Every decision node is a parent node. For example, a body of water would be a parent node, whereas, seas, oceans, lakes, rivers, and waterfalls, would be child nodes.
+
+**A Decision Tree in Practice**
+
+Decision trees are great for classification and regression problems. Lets look at an example decision tree, called a binary classification tree. The decision tree below asks a series of true or false questions, to help identify a number of animals. Based upon the answer to the previous question, another might be asked to help further segment the data and provide more options. 
+
+**Figure 1: Binary Classification Tree**
+
+.. image:: Strategic_analysis.png
+  :width: 500
+
+**Example:**
+
+To begin a user must typically complete the following tasks: Open Google Colab, Data loading, preparation, and exploration. Below, we will run through how to train a decision tree model using a sample California Housing dataset. (Note: You can use any clean dataset under 10 megabytes of size)
+
+**Step 1:** 
+Install PiML in Google Colab
+
+.. image:: piml_install.png
+   :width: 750
+   :alt: Alternative text
+   
+**Step 2:**
+Import experiment from PiMl package
+
+.. image:: piml_import_experiment.png
+   :width: 750
+   :alt: Alternative text
+   
+**Step 3:** 
+Load your data
+
+.. image:: data_loader.png
+   :width: 750
+   :alt: Alternative text
+   
+**Step 4:**
+Summarize your data
+
+.. image:: data_summary.png
+   :width: 750
+   :alt: Alternative text
+
+**Step 5:**
+Prepare your data
+
+.. image:: data_prepare2.png
+   :width: 750
+   :alt: Alternative text
+
+**Step 6:**
+Train your model
+
+.. image:: model_train2.png
+   :width: 750
+   :alt: Alternative text
+ 
+**Step 7:**
+Explain your model
+ 
+.. image:: model_explain.png
+   :width: 750
+   :alt: Alternative text
+
+**Step 8:**
+Interpret your model
+
+.. image:: model_interpret.png
+   :width: 750
+   :alt: Alternative text
+
+**Figure 2: Binary Classification with Key Terms**
+
+.. image:: Strategic_analysis_with_keyterms.png
+  :width: 500
+
+.. rubric:: **References**
+
+.. [D2013] A. Damianou, Lawrence, N.D
+                `Deep Gaussian Processes:Proceedings of the Sixteenth International Conference on Artificial                        Intelligence and Statistics
+                <https://proceedings.mlr.press/v31/damianou13a.html>`_,
+                in Proceedings of Machine Learning Research 31:207-215 
+
+.. [H2009] T. Hastie, R. Tibshirani and J. Friedman,
+                `Elements of Statistical Learning 
+                <https://en.wikipedia.org/wiki/Decision_tree_learning>`_,
+                Second Edition, Section 10.13.2, Springer, 2009.
+
+.. [G2017] P.Gupta, 
+               `Decision Trees in Machine Learning 
+               <https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052>`_
+
+.. [K2021] A.Kumar, 
+               `Difference between Parametric vs Non-Parametric models
+               <https://vitalflux.com/difference-between-parametric-vs-non-parametric-models//>`_
+               
+.. [CFI2022] CFI Team,
+                `Decision Tree
+                <https://corporatefinanceinstitute.com/resources/data-science/decision-tree/>`_
+
+.. [S2020] C.Singleton,
+                `A Beginner’s Guide to Important Topics in AI, Machine Learning, and Deep Learning
+                <https://wiki.pathmind.com/decision-tree>`_
+
+
+
+
+
+

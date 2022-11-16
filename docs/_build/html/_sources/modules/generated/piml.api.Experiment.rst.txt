@@ -1,0 +1,12 @@
+﻿:mod:`piml.api`.Experiment
+=================================
+
+.. currentmodule:: piml.api
+
+.. autoclass:: Experiment
+
+.. include:: piml.api.Experiment.examples
+
+.. raw:: html
+
+    <div class="clearer"></div>
