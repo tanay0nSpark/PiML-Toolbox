@@ -18,10 +18,12 @@
 .. _sphx_glr_auto_examples_models_plot_0_gam.py:
 
 
-Generalized additive model (GAM)
+PiML Inheriently Interpretable Models
 =====================================
 
-.. GENERATED FROM PYTHON SOURCE LINES 7-16
+Generalized additive model (GAM)
+
+.. GENERATED FROM PYTHON SOURCE LINES 8-17
 
 
 
@@ -85,11 +87,11 @@ Generalized additive model (GAM)
     exp.data_prepare()
 
     exp.model_train(model=GAMRegressor(), name="GAM")
-    exp.model_interpret("GAM", show="global_effect_plot", uni_feature="hr", figsize=(6, 4))
+    exp.model_interpret("GAM", show="global_effect_plot", uni_feature="hr")
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.955 seconds)
+   **Total running time of the script:** ( 0 minutes  1.152 seconds)
 
 
 .. _sphx_glr_download_auto_examples_models_plot_0_gam.py:

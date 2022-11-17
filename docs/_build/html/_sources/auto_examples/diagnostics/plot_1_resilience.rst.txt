@@ -90,7 +90,7 @@ Train model and Run
 .. code-block:: default
 
     exp.model_train(model=XGBRegressor(max_depth=2, n_estimators=100), name="XGB-2")
-    exp.model_diagnose("XGB-2", show='resilience_perf', immu_feature=None, figsize=(6, 4))
+    exp.model_diagnose("XGB-2", show='resilience_perf', immu_feature=None)
 
 
 
@@ -113,7 +113,7 @@ Train model and Run
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.424 seconds)
+   **Total running time of the script:** ( 0 minutes  0.502 seconds)
 
 
 .. _sphx_glr_download_auto_examples_diagnostics_plot_1_resilience.py:

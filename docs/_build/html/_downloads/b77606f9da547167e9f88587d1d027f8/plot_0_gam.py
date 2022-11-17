@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Generalized additive model (GAM)
+PiML Inheriently Interpretable Models
 =====================================
 
+Generalized additive model (GAM)
 """
 
 from piml import Experiment
@@ -13,4 +14,4 @@ exp.data_loader(data="BikeSharing")
 exp.data_prepare()
 
 exp.model_train(model=GAMRegressor(), name="GAM")
-exp.model_interpret("GAM", show="global_effect_plot", uni_feature="hr", figsize=(6, 4))
+exp.model_interpret("GAM", show="global_effect_plot", uni_feature="hr")
